@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    function fun1(){
+document.querySelectorAll("h1")[3].innerHTML = "some fun1 query - window onload";
+    };
+    
+
+    function fun2(){
+document.querySelectorAll("h1")[2].innerHTML = "fun2 query -document onload";
+    };
+
+    function fun3(){
+document.querySelectorAll("h2")[0].innerHTML = "fun3 query - body onload";
+    };
+    window.onload = fun1;
+    document.addEventListener("fun2", fun2);
+   
+</script>
+
+
+
+</head>
+<body onload=fun3()>
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h2>hello</h2>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--  <script>
+        let Hero = function(fname, lname){
+            this.firstname = fname;
+            this.lastname = lname;
+            var secret = "pvt property";
+            this.fullname = function(){
+                return this.firstname + ""+ this.lastname;
+            }
+        };
+
+        let hero = new Hero("a","b");
+        console.log(hero.firstname);
+        console.log(hero.lastname);
+        console.log(hero.fullname());
+    </script> -->
+    <script>
+
+        class Person{
+            city = "Default City"
+            constructor(ncity){
+                this.city = ncity;
+
+            }
+            saycity(){return this.city;
+            }
+        }
+    class Hero extends Person{
+        firstname = "";
+        lastname = "";
+        _secret = "My secret mission";
+        constructor(fname, lname, city){
+            super(city);
+            this.firstname = fname;
+            this.lastname = lname;
+        }
+        fullname(){
+            return this.firstname+" "+this.lastname;
+        }
+        get secret(){
+            return this._secret;
+        }
+        set secret(nsecret){
+            this._secret = nsecret;
+        }
+    };
+
+    let hero = new Hero("Peter", "Parker", "nw");
+    console.log(hero.firstname);
+    console.log(hero.lastname);
+    console.log(hero.fullname() );
+    console.log(hero.secret);// getter
+    hero.secret = "Mission Changed"; // setter
+    console.log(hero.secret);// getter
+    console.log(hero.saycity());
+</script>
+</head>
+<body>
+    
+</body>
+</html>
