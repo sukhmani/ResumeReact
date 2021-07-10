@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        let arr = [34,11,101,4,2,9,31,17,44,98];
+      /*  let arr = [34,11,101,4,2,9,31,17,44,98];
         let total = 0;
         for(let i = 0; i <arr.length; i++){
             total += arr[i];
 
         };
+        console.log(total);*/
+        let arr = [34,11,101,4,2,9,31,17,44,98];
+        /* let total = 0;
+        for(let i = 0; i < arr.length; i++){
+            total += arr[i];
+        };
+        console.log(total); */
+        let total = 0;
+        arr.forEach(function(val,idx, arr){
+            // console.log("call back function was called");
+            total += val;
+            // console.log(val, idx, ary);
+        })
         console.log(total);
+       
+
     </script>
 </head>
 <body>
