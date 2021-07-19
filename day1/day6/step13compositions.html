@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function composition( fun1, fun2 ){
+            return function( num ){
+                return fun1( fun2( num ) )
+            }
+        };
+
+        function firstFun( num ){
+            return num + num;
+        }
+        function secondFun( num ){
+            return num * num;
+        }
+
+        var comp = composition(firstFun, secondFun);
+        console.log( comp( 5 ) ); //
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
