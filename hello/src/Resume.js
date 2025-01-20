@@ -111,7 +111,7 @@ const Resume = () => {
 
       <h2>Industry Certifications</h2>
       <ul>
-        <li>Microsoft and Azure Certified</li>
+        <li>Azure Certified</li>
         <li>Microsoft Technical Associate</li>
         <li>Salesforce Certified Developer</li>
         <li>AWS Certified</li>
