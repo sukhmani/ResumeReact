@@ -4,8 +4,8 @@ import './Resume.css';
 const Resume = () => {
   return (
     <div className="resume-container">
-      <h1>Sukhmani Thukral</h1>
-      <p>Contact: thukralsukhmani@cityuniversity.edu | (206) 225-8829</p>
+     
+      
       
       <h2>Education</h2>
       <p>City University, Masters in Computer Science</p>

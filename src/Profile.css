@@ -1,0 +1,23 @@
+.profile {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .profile p {
+    font-size: 18px;
+    color: #555;
+  }
+  
