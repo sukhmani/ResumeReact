@@ -5,7 +5,7 @@ const Project = () => {
   const projects = [
     {
       name: 'AI',
-      description: 'Developed an AI application.',
+      description: 'Created a script that uses Streamlit to create a web interface for gathering company and product information, which is then processed by a language model (ChatGroq) to generate business insights. The results include details about competitors, product categories, value propositions, and target customers, with data fetched using the TavilySearchResults tool.',
       link: 'https://capstone-ai.streamlit.app/'
     },
     
