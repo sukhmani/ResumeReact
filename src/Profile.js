@@ -8,7 +8,7 @@ function Profile() {
     linkedin: 'https://www.linkedin.com/in/sukhmani-thukral/',
     contact: 'thukralsukhmani@cityuniversity.edu',
     phone: '(206) 225-8829',
-    avatar: 'https://github.com/sukhmani/ResumeReact/raw/main/Screenshot%202025-01-14%20114954.png' // Use the raw URL of the image
+    avatar: 'https://github.com/sukhmani/ResumeReact/raw/main/Screenshot%202025-01-14%20114954.png' 
   };
 
   return (
