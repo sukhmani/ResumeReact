@@ -3,7 +3,10 @@ import Header from './Header';
 import Profile from './Profile';
 import Resume from './Resume';
 import Hobbies from './Hobbies';
+import Projects from './Projects';
 import './Resume.css'; // 
+import Project from './Projects';
+import './App.css';
 
 function App() {
   return (
@@ -15,9 +18,13 @@ function App() {
       <div id="resume">
         <Resume />
       </div>
+      <div id="projects">
+        <Projects />
+      </div>
       <div id="hobbies">
         <Hobbies />
       </div>
+      
     </div>
   );
 }

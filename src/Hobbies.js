@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hobbies.css'; 
 
 function Hobbies() {
   const hobbies = ['Coding', 'Hiking', 'Reading', 'Traveling'];

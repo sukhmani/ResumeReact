@@ -1,0 +1,25 @@
+.hobbies {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .hobbies h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .hobbies ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+  }
+  
+  .hobbies li {
+    margin: 5px 0;
+    color: #555;
+    font-size: 18px;
+  }
+  
