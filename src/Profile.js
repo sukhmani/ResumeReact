@@ -8,6 +8,7 @@ function Profile() {
     linkedin: 'https://www.linkedin.com/in/sukhmani-thukral/',
     contact: 'thukralsukhmani@cityuniversity.edu',
     phone: '(206) 225-8829',
+    github:'https://github.com/sukhmani/ResumeReact',
     avatar: 'https://github.com/sukhmani/ResumeReact/raw/main/Screenshot%202025-01-14%20114954.png' 
   };
 
@@ -25,6 +26,11 @@ function Profile() {
       <p>LinkedIn: 
         <a href={user.linkedin} target="_blank" rel="noopener noreferrer">
           {user.linkedin}
+        </a>
+      </p>
+      <p>GitHub: 
+        <a href={user.github} target="_blank" rel="noopener noreferrer">
+          {user.github}
         </a>
       </p>
     </div>
