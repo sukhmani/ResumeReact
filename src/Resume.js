@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <h1>Sukhmani Thukral</h1>
-      <p>Contact: thukralsukhmani@cityuniversity.edu | (206) 225-8829 | (425) 894-3537</p>
+      <p>thukralsukhmani@cityuniversity.edu | (206) 225-8829 | (425) 894-3537</p>
       
       <section>
         <h2>Education</h2>
